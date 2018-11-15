@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-15T02:37:05.578Z</updated>
+  <updated>2018-11-15T06:55:36.614Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>This is my first blog</title>
-    <link href="http://yoursite.com/2018/11/14/demo/"/>
-    <id>http://yoursite.com/2018/11/14/demo/</id>
-    <published>2018-11-14T08:20:54.000Z</published>
-    <updated>2018-11-15T02:37:05.578Z</updated>
+    <title>Hexo Next使用Aplayer添加音乐</title>
+    <link href="http://yoursite.com/2018/11/15/Hexo%20Next%E4%BD%BF%E7%94%A8Aplayer%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/"/>
+    <id>http://yoursite.com/2018/11/15/Hexo Next使用Aplayer添加音乐/</id>
+    <published>2018-11-15T08:20:54.000Z</published>
+    <updated>2018-11-15T06:55:36.614Z</updated>
     
     <summary type="html">
     
@@ -36,7 +36,7 @@
     </summary>
     
     
-      <category term="by WuTong" scheme="http://yoursite.com/tags/by-WuTong/"/>
+      <category term="Aplayer" scheme="http://yoursite.com/tags/Aplayer/"/>
     
   </entry>
   

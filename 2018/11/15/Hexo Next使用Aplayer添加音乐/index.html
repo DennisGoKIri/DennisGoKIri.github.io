@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
 
 
-  <meta name="keywords" content="by WuTong,">
+  <meta name="keywords" content="Aplayer,">
 
 
 
@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="我喜欢二次元                                                   var ap = new APlayer({             element: document.getElementById(&quot;aplayer-fYDMIefp&quot;),             narrow: false,             autoplay: false">
-<meta name="keywords" content="by WuTong">
+<meta name="description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-RcabYlKv&quot;),             narrow: false,             autoplay: false,">
+<meta name="keywords" content="Aplayer">
 <meta property="og:type" content="article">
-<meta property="og:title" content="This is my first blog">
-<meta property="og:url" content="http://yoursite.com/2018/11/14/demo/index.html">
+<meta property="og:title" content="Hexo Next使用Aplayer添加音乐">
+<meta property="og:url" content="http://yoursite.com/2018/11/15/Hexo Next使用Aplayer添加音乐/index.html">
 <meta property="og:site_name" content="DoKi DoKi">
-<meta property="og:description" content="我喜欢二次元                                                   var ap = new APlayer({             element: document.getElementById(&quot;aplayer-fYDMIefp&quot;),             narrow: false,             autoplay: false">
+<meta property="og:description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-RcabYlKv&quot;),             narrow: false,             autoplay: false,">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-15T02:37:05.578Z">
+<meta property="og:updated_time" content="2018-11-15T06:55:36.614Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="This is my first blog">
-<meta name="twitter:description" content="我喜欢二次元                                                   var ap = new APlayer({             element: document.getElementById(&quot;aplayer-fYDMIefp&quot;),             narrow: false,             autoplay: false">
+<meta name="twitter:title" content="Hexo Next使用Aplayer添加音乐">
+<meta name="twitter:description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-RcabYlKv&quot;),             narrow: false,             autoplay: false,">
 
 
 
@@ -136,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/11/14/demo/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/15/Hexo Next使用Aplayer添加音乐/">
 
 
 
 
 
-  <title>This is my first blog | DoKi DoKi</title>
+  <title>Hexo Next使用Aplayer添加音乐 | DoKi DoKi</title>
   
 
 
@@ -329,7 +329,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/14/demo/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/15/Hexo Next使用Aplayer添加音乐/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Wu Tong">
@@ -346,7 +346,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">This is my first blog</h1>
+          <h1 class="post-title" itemprop="name headline">Hexo Next使用Aplayer添加音乐</h1>
         
 
         <div class="post-meta">
@@ -358,8 +358,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-14T16:20:54+08:00">
-                2018-11-14
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-15T16:20:54+08:00">
+                2018-11-15
               </time>
             
 
@@ -376,7 +376,7 @@
 
           
           
-             <span id="/2018/11/14/demo/" class="leancloud_visitors" data-flag-title="This is my first blog">
+             <span id="/2018/11/15/Hexo Next使用Aplayer添加音乐/" class="leancloud_visitors" data-flag-title="Hexo Next使用Aplayer添加音乐">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -408,13 +408,13 @@
       
 
       
-        <h1 id="我喜欢二次元"><a href="#我喜欢二次元" class="headerlink" title="我喜欢二次元"></a>我喜欢二次元</h1>
-        <div id="aplayer-fYDMIefp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        
+        <div id="aplayer-RcabYlKv" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-fYDMIefp"),
+            element: document.getElementById("aplayer-RcabYlKv"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -428,7 +428,13 @@
           });
           window.aplayers || (window.aplayers = []);
           window.aplayers.push(ap);
-        </script>
+        </script>  
+<p>一、安装插件<br>在自己博客目录下使用命令：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-tag-aplayer <span class="comment">--save</span></span><br></pre></td></tr></table></figure></p>
+<p>使用<br>在文章中的写法：  </p>
+<figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</span><br></pre></td></tr></table></figure>
+<p>标签参数<br>    •    title : 曲目标题<br>    •    author: 曲目作者<br>    •    url: 音乐文件 URL 地址<br>    •    picture_url: (可选) 音乐对应的图片地址<br>    •    narrow: （可选）播放器袖珍风格<br>    •    autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能<br>    •    width:xxx:(可选) 播放器宽度(默认: 100%)<br>    •    lrc:xxx: (可选）歌词文件 URL 地址<br>    实例</p>
+<figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="meta">%</span> aplayer <span class="string">"歌曲名"</span> <span class="string">"歌手名"</span> <span class="string">"http://music.163.com/song/media/outer/url?id=xxxxx.mp3"</span> <span class="string">"https://封面图.jpg"</span> <span class="string">"lrc:https://歌词.lrc"</span> <span class="meta">%</span>&#125;</span><br></pre></td></tr></table></figure>
+<p>封面的获取可以右键点击照片，检查元素中获得。</p>
 
       
     </div>
@@ -446,7 +452,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/by-WuTong/" rel="tag"><i class="fa fa-tag"></i> by WuTong</a>
+            <a href="/tags/Aplayer/" rel="tag"><i class="fa fa-tag"></i> Aplayer</a>
           
         </div>
       
@@ -503,17 +509,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Wu Tong">
           <p class="site-author-name" itemprop="name">Wu Tong</p>
@@ -571,22 +568,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#我喜欢二次元"><span class="nav-number">1.</span> <span class="nav-text">我喜欢二次元</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
