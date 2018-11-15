@@ -3,14 +3,9 @@
   <entry>
     <title><![CDATA[This is my first blog]]></title>
     <url>%2F2018%2F11%2F14%2Fdemo%2F</url>
-    <content type="text"><![CDATA[我喜欢二次元]]></content>
+    <content type="text"><![CDATA[我喜欢二次元 var ap = new APlayer({ element: document.getElementById("aplayer-fYDMIefp"), narrow: false, autoplay: false, showlrc: false, music: { title: "結衣の決意", author: "帆足圭吾", url: "http://music.163.com/song/media/outer/url?id=32857648.mp3", pic: "http://p2.music.126.net/T2etSRdkmhn1Hlohu7Jbfg==/7716372604710408.jpg?param=130y130", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap);]]></content>
       <tags>
         <tag>by WuTong</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2018%2F10%2F30%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
