@@ -96,18 +96,18 @@
 
 
 
-<meta name="description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-eFQhwZPm&quot;),             narrow: false,             autoplay: false,">
+<meta name="description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-fQsfsvlj&quot;),             narrow: false,             autoplay: false,             s">
 <meta name="keywords" content="Aplayer">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo Next使用Aplayer添加音乐">
 <meta property="og:url" content="http://yoursite.com/2018/11/15/Hexo Next使用Aplayer添加音乐/index.html">
 <meta property="og:site_name" content="DoKi DoKi">
-<meta property="og:description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-eFQhwZPm&quot;),             narrow: false,             autoplay: false,">
+<meta property="og:description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-fQsfsvlj&quot;),             narrow: false,             autoplay: false,             s">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-15T06:59:43.707Z">
+<meta property="og:updated_time" content="2018-11-22T02:59:04.359Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo Next使用Aplayer添加音乐">
-<meta name="twitter:description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-eFQhwZPm&quot;),             narrow: false,             autoplay: false,">
+<meta name="twitter:description" content="var ap = new APlayer({             element: document.getElementById(&quot;aplayer-fQsfsvlj&quot;),             narrow: false,             autoplay: false,             s">
 
 
 
@@ -409,12 +409,12 @@
 
       
         
-        <div id="aplayer-eFQhwZPm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-fQsfsvlj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-eFQhwZPm"),
+            element: document.getElementById("aplayer-fQsfsvlj"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -432,6 +432,7 @@
 <p>一、安装插件<br>在自己博客目录下使用命令：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-tag-aplayer <span class="comment">--save</span></span><br></pre></td></tr></table></figure></p>
 <p>使用<br>在文章中的写法：  </p>
 <figure class="highlight clojure"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&#125;</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>标签参数<br>    •    title : 曲目标题<br>    •    author: 曲目作者<br>    •    url: 音乐文件 URL 地址<br>    •    picture_url: (可选) 音乐对应的图片地址<br>    •    narrow: （可选）播放器袖珍风格<br>    •    autoplay: (可选) 自动播放，移动端浏览器暂时不支持此功能<br>    •    width:xxx:(可选) 播放器宽度(默认: 100%)<br>    •    lrc:xxx: (可选）歌词文件 URL 地址<br>    实例</p>
 <figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;<span class="meta">%</span> aplayer <span class="string">"歌曲名"</span> <span class="string">"歌手名"</span> <span class="string">"http://music.163.com/song/media/outer/url?id=xxxxx.mp3"</span> <span class="string">"https://封面图.jpg"</span> <span class="string">"lrc:https://歌词.lrc"</span> <span class="meta">%</span>&#125;</span><br></pre></td></tr></table></figure>
 <p>封面的获取可以右键点击照片，检查元素中获得。</p>

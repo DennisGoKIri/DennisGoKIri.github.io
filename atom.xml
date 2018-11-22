@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-15T06:59:43.707Z</updated>
+  <updated>2018-11-22T02:59:04.359Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,17 +21,33 @@
     <link href="http://yoursite.com/2018/11/15/Hexo%20Next%E4%BD%BF%E7%94%A8Aplayer%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90/"/>
     <id>http://yoursite.com/2018/11/15/Hexo Next使用Aplayer添加音乐/</id>
     <published>2018-11-15T08:20:54.000Z</published>
-    <updated>2018-11-15T06:59:43.707Z</updated>
+    <updated>2018-11-22T02:59:04.359Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
-        
-      
+      &lt;div id=&quot;aplayer-fQsfsvlj&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+            &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&quot;aplayer-fQsfsvlj&quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &quot;結衣の決意&quot;,
+              author: &quot;帆足圭吾&quot;,
+              url: &quot;http://music.163.com/song/media/outer/url?id=32857648.mp3&quot;,
+              pic: &quot;http://p2.music.126.net/T2etSRdkmhn1Hlohu7Jbfg==/7716372604710408.jpg?param=130y130&quot;,
+              lrc: &quot;&quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;  
+&lt;p&gt;一、安装插件&lt;br&gt;在自己博客目录下使用命令：&lt;br&gt;&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; hexo-tag-aplayer &lt;span class=&quot;comment&quot;&gt;--save&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;使用&lt;br&gt;在文章中的写法：  &lt;/p&gt;
+&lt;figure class=&quot;highlight clojure&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;% aplayer title author url [picture_url, narrow, autoplay, width:xxx, lrc:xxx] %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
